@@ -72,8 +72,8 @@ assign it with the chained (concatenated) expression above.
 Print assembled.
 */    
 
-echo "My name is " . $firstName .n/ . $lastName . ;
-echo "I was born on " . $day . of . $month . in . $year . ;
+echo "My name is " . $firstName . " " . $lastName;
+echo " I was born on " . $day . " of " . $month . " in " . $year . "." ;
 
 
 // task separator
@@ -92,20 +92,20 @@ Calculate and print the area of the rectangle below:
  
 Declare the variable length and assign it with the specified value.
 */
-
+$length = 6.5;
 /*
 Declare the variable width and assign it with the specified value.
 */
-
+$width = 3.5;
 /*
 Declare the variable area and assign it with the product of length and width.
 */
-
+$area = $length*$width;
 /*
 Print area.
 */
 
-
+echo "the area of rectangle is " . $area;
 
 
 // task separator
@@ -145,8 +145,8 @@ $total = 249 + (0.13*249)+(0.05*249);
 Concatenate the variables and string literals to print the statement:
 armchair: $295.44
 */
-$abc = "$product": "$total";
-echo $abc
+$abc = $product .":". $total;
+echo $abc;
 //put it in varable so i dontneed to put again and again itis a short cut//
 
 
